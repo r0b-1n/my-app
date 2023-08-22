@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/test';
 
 function App() {
   return (
@@ -17,9 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <Button/>
       </header>
     </div>
   );
 }
 
 export default App;
+
+//  https://github.com/airbnb/javascript/tree/master/react
